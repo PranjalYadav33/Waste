@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waste Management Data Collection &amp; Analysis — Pranjal Yadav</title>
+<meta name="description" content="Field Project: why household waste segregation fails between kitchen and collection point. CPCB, SBM-Urban, MPCB and a survey of 100 residents. By Pranjal Yadav, University of Mumbai.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Waste Management Data Collection & Analysis — Pranjal Yadav">
+<meta property="og:description" content="Field Project: why household waste segregation fails between kitchen and collection point. CPCB, SBM-Urban, MPCB and a survey of 100 residents.">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="site-header">
+  <div class="header-in">
+    <a class="logo" href="index.html">Waste Management <span>· Pranjal Yadav</span></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="header-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="field-visit.html">Field Visit</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="findings.html">Findings</a>
+      <a href="survey.html">Survey</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="academic.html">Academic</a>
+      <a href="references.html">References</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <p class="kicker">October 2026 · Field Project · University of Mumbai</p>
+    <h1>Waste Management</h1>
+    <p class="subtitle">Why household waste segregation fails between the kitchen and the collection point — evidence from three housing typologies in Mumbai.</p>
+    <div class="hero-actions">
+      <a class="btn" href="solutions.html">Recommendations R1–R9</a>
+      <a class="btn ghost" href="data/field-project-report.docx" download>Full report</a>
+      <a class="btn ghost" href="data/survey-responses.csv" download>Dataset · N=100</a>
+    </div>
+    <p class="byline">Pranjal Yadav (202503021, S.Y.B.Sc. Computer Science) · Guide: Asst. Prof. Ashish Yadav<br>Faculty of Science &amp; Technology · Academic Year 2025–26</p>
+  </section>
+  <div class="layout">
+    <article class="article">
+      <div class="lede">
+        <p>We predict that fixing urban waste is not a collection problem but a <strong>segregation-at-handover problem</strong> — and that the required fix differs by housing type.<sup class="fn"><a href="references.html#ref-1">[1]</a></sup></p>
+        <p>India collects <strong>91.8%</strong> of municipal solid waste yet treats only <strong>53.7%</strong> (CPCB 2021–22: 1,70,339 tonnes per day generated; 37,373 tonnes per day unaccounted).<sup class="fn"><a href="references.html#ref-3">[3]</a></sup> Official portals claim <strong>90.1%</strong> of wards fully segregate; independent field audits verify only <strong>48.8%</strong>.<sup class="fn"><a href="references.html#ref-6">[6]</a></sup><sup class="fn"><a href="references.html#ref-7">[7]</a></sup> Our survey of 100 residents explains why: <strong>53%</strong> use a single mixed bin, <strong>67%</strong> are served by single-chamber vehicles, and <strong>87%</strong> have watched collection staff remix separated bags.</p>
+      </div>
+
+      <details class="expand" open>
+        <summary>What is this? How was it written? Why is it valuable?</summary>
+        <div class="expand-body"><div>
+          <p><strong>What is this?</strong> A B.Sc. field project combining official records (CPCB, SBM-Urban with Garbage Free City verification, MPCB) with a digital survey of 100 residents across gated societies, chawl/market streets and community-bin pockets.</p>
+          <p><strong>How was it written?</strong> Secondary data first — every figure in the Findings chapter regenerates from retained extracts — then primary evidence: a ten-item questionnaire, duplicate-checked, coded and cross-tabulated, with all charts on this site computed live from the published dataset.</p>
+          <p><strong>Why is it valuable?</strong> Mission dashboards circulate claimed and verified figures without reconciling them. This study places the two side by side, traces failure to the exact handover step (domestic worker, vehicle, timing), and sets out nine recommendations with responsible agencies and measurable indicators.</p>
+        </div></div>
+      </details>
+
+      <div class="metrics reveal" id="metrics">
+        <div class="metric"><p class="metric-num" data-count="91.8" data-dec="1" data-suffix="%">91.8%</p><p class="metric-cap">Collected · 1,56,449 TPD</p></div>
+        <div class="metric"><p class="metric-num" data-count="53.7" data-dec="1" data-suffix="%">53.7%</p><p class="metric-cap">Treated · 91,511 TPD</p></div>
+        <div class="metric"><p class="metric-num" data-count="41.3" data-dec="1" data-suffix=" pt">41.3 pt</p><p class="metric-cap">Claimed vs verified gap</p></div>
+        <div class="metric"><p class="metric-num" data-count="87" data-dec="0" data-suffix="%">87%</p><p class="metric-cap">Observed remixing · N=100</p></div>
+      </div>
+
+      <h2>Principal findings</h2>
+      <p><strong>1. Collection is largely resolved; segregation at handover is not.</strong> Of every 100 tonnes generated nationally, approximately 92 are collected but only 54 are treated; roughly 22 fall into an unaccounted gap and 24 are landfilled.<sup class="fn"><a href="references.html#ref-3">[3]</a></sup></p>
+      <p><strong>2. Reported and verified segregation diverge substantially.</strong> Reported ward-level segregation rises from 60% to 90.1% across the mission period, while field verification records 48.8% — a 41.3-point difference this report treats as the central measurement problem.<sup class="fn"><a href="references.html#ref-6">[6]</a></sup><sup class="fn"><a href="references.html#ref-7">[7]</a></sup></p>
+      <p><strong>3. Treatment performance is not explained by waste volume.</strong> The correlation between generation volume and treated share across major states is r = 0.131. Administrative and infrastructural factors, not city size, account for the observed variation.<sup class="fn"><a href="references.html#ref-3">[3]</a></sup></p>
+      <p><strong>4. Household behaviour responds to infrastructure, then decays without follow-up.</strong> A Delhi randomised trial recorded segregation rising from 3.69% to 54.0% within one week of bin provision with instructions and a small incentive, declining to 43% by week five.<sup class="fn"><a href="references.html#ref-11">[11]</a></sup> High willingness without matching behaviour is documented in Mumbai (86.36% aware, 90.91% willing),<sup class="fn"><a href="references.html#ref-12">[12]</a></sup> and an 11-point sorting gain from labelling and lids alone is documented at IIT-Mandi.<sup class="fn"><a href="references.html#ref-14">[14]</a></sup></p>
+
+      <div class="note">
+        <h3>How to read this website</h3>
+        <p style="margin:0">This site follows the structure of the submitted report. <a href="field-visit.html">Field Visit</a> describes the three observation zones; <a href="methodology.html">Methodology</a> documents the survey design and analysis; <a href="findings.html">Findings</a> presents the secondary-data analysis (Figures F-1–F-6); <a href="survey.html">Survey</a> presents the primary results (Figures P-S1–P-S5, N=100); <a href="solutions.html">Solutions</a> sets out conclusions and nine recommendations; <a href="academic.html">Academic</a> holds the certificate, declaration, supervision diary and downloads; <a href="references.html">References</a> lists all sources.</p>
+      </div>
+
+      <div class="pager">
+        <span></span>
+        <a href="field-visit.html">Next: Field Visit →</a>
+      </div>
+    </article>
+  </div>
+  <footer><div class="fin"><span>Waste Management · Pranjal Yadav · S.Y.B.Sc. Computer Science, University of Mumbai · Updated October 2026</span><span><a href="academic.html">Academic record</a> · <a href="references.html">Sources &amp; annexures</a></span></div></footer>
+</main>
+<script src="site.js"></script>
+</body>
+</html>

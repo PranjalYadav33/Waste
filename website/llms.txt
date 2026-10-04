@@ -1,0 +1,27 @@
+# Waste Management Data Collection & Analysis — Pranjal Yadav
+
+> Field project (S.Y.B.Sc. Computer Science, University of Mumbai, 2025–26)
+> studying why household waste segregation fails between kitchen and collection
+> point across three housing typologies in Mumbai.
+
+## Pages
+
+- [Home](index.html): abstract, key metrics, principal findings.
+- [Field Visit](field-visit.html): three observation zones and observation matrix.
+- [Methodology](methodology.html): survey design, questionnaire Q1–Q10, processing, ethics.
+- [Findings](findings.html): secondary-data analysis, interactive Figures F-1–F-6.
+- [Survey](survey.html): primary results N=100, interactive Figures P-S1–P-S5, frequency table.
+- [Solutions](solutions.html): conclusions and recommendations R1–R9 with owners and indicators.
+- [Academic](academic.html): certificate, declaration, acknowledgement, guide diary, downloads.
+- [References](references.html): 14 cited sources and annexures.
+
+## Data
+
+- [Primary dataset, N=100 (CSV)](data/survey-responses.csv)
+- [Full report (DOCX)](data/field-project-report.docx)
+
+## Key figures (exact counts)
+
+- India 2021–22: 1,70,339 TPD generated; 91.8% collected; 53.7% treated.
+- Wards: 90.1% claimed vs 48.8% verified segregation (41.3-point gap).
+- Survey N=100: 53% single bin; 67% single-chamber vehicles; 87% observed remixing.

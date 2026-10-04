@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology — Waste Management Field Project</title>
+<meta name="description" content="Survey design, sampling, instruments, analysis procedure, ethics and limitations. N=100, Google Form, 2 October 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Methodology — Waste Management Field Project">
+<meta property="og:description" content="Survey design, sampling, instruments, analysis, ethics and limitations. N=100.">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="site-header">
+  <div class="header-in">
+    <a class="logo" href="index.html">Waste Management <span>· Pranjal Yadav</span></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="header-nav">
+      <a href="index.html">Home</a>
+      <a href="field-visit.html">Field Visit</a>
+      <a href="methodology.html" class="active">Methodology</a>
+      <a href="findings.html">Findings</a>
+      <a href="survey.html">Survey</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="academic.html">Academic</a>
+      <a href="references.html">References</a>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="layout">
+<article class="article">
+<p class="breadcrumb"><a href="index.html">Home</a> / Methodology</p>
+<p class="page-num">CHAPTER 2</p>
+<h2 style="margin-top:6px">Project planning and methodology</h2>
+<h3>2.1 Project objective</h3>
+<p>To determine why household waste segregation fails between the point of generation and the point of municipal collection, by combining official secondary records with a primary survey stratified across three residential typologies.</p>
+<h3>2.2 Survey design</h3>
+<p>The study employs a descriptive-cum-analytical design. Primary data were collected through a structured digital questionnaire (Google Form, 10 items); secondary data were drawn from the CPCB Annual Report 2021–22 (Table-1), SBM-Urban MIS and Garbage Free City 2023 dashboards, MPCB quarterly (Q4-2020) and annual (2023) filings, and five published field studies (Delhi ISI, Mulund, IIT-Mandi/WPI, FOSSEE Thiruvananthapuram, Thanisandra).<sup class="fn"><a href="references.html#ref-3">[3]</a></sup><sup class="fn"><a href="references.html#ref-6">[6]</a></sup><sup class="fn"><a href="references.html#ref-4">[4]</a></sup><sup class="fn"><a href="references.html#ref-5">[5]</a></sup></p>
+<div class="table-scroll"><table>
+<thead><tr><th>Item</th><th>Specification</th></tr></thead>
+<tbody>
+<tr><td>Type of survey</td><td>Field-based descriptive survey (digital questionnaire with assisted interviews), supporting a secondary open-data analysis</td></tr>
+<tr><td>Target population</td><td>Urban households across three strata: gated flats, chawl/mixed buildings, informal hutments</td></tr>
+<tr><td>Sampling method</td><td>Stratified convenience sampling via society messaging groups, student networks and community contacts</td></tr>
+<tr><td>Sample size and window</td><td>N=100 completed responses, 2 October 2026, 13:55–14:07 (approximately 71 minutes)</td></tr>
+<tr><td>Instrument</td><td>Structured 10-item questionnaire (see Table 2.1)</td></tr>
+<tr><td>Analysis tools</td><td>Spreadsheet coding; Python (pandas, matplotlib) for rates, cross-tabulations and charts; triangulation against CPCB/SBM/MPCB benchmarks</td></tr>
+</tbody></table></div>
+<h3>2.3 Questionnaire</h3>
+<div class="table-scroll"><table>
+<thead><tr><th>No.</th><th>Question</th><th>Response options</th></tr></thead>
+<tbody>
+<tr><td>Q1</td><td>Housing type</td><td>Gated Society / Standalone Building or Chawl / Other</td></tr>
+<tr><td>Q2</td><td>Do you keep separate bins for wet and dry waste at home?</td><td>Yes, Always / Sometimes / No, Single bin</td></tr>
+<tr><td>Q3</td><td>If you do not segregate, what is the main reason?</td><td>No separate bins / Lack of kitchen space / Forgetfulness / Waste collector mixes them anyway</td></tr>
+<tr><td>Q4</td><td>How reliable is your daily municipal waste collection?</td><td>Very regular / Delayed by 1–2 hours / Irregular / No door-to-door pickup</td></tr>
+<tr><td>Q5</td><td>Does the collection vehicle have separate compartments for wet and dry waste?</td><td>Yes / No, single chamber / Not sure</td></tr>
+<tr><td>Q6</td><td>Have you observed the waste handler mixing segregated bags?</td><td>Frequently / Occasionally / Never / Not sure</td></tr>
+<tr><td>Q7</td><td>Do you separate domestic hazardous and sanitary waste (pads, diapers, glass, medicines)?</td><td>Yes, in separate bag / Mixed with wet / Mixed with dry</td></tr>
+<tr><td>Q8</td><td>Are you aware of municipal fines or bye-laws for not segregating?</td><td>Yes / No</td></tr>
+<tr><td>Q9</td><td>Would an SMS/WhatsApp alert 15 minutes before the truck arrives help you hand over waste on time?</td><td>Yes / No</td></tr>
+<tr><td>Q10</td><td>What would motivate you most to segregate daily?</td><td>Clearer instructions / Lower municipal maintenance fee / Strict fines / Better bins</td></tr>
+</tbody></table></div>
+<h3>2.4 Data collection plan and processing</h3>
+<p>Responses were screened for duplicate timestamps and straight-lining; none were found in this window. Categorical responses were coded numerically (Yes=1/No=0; Always/Sometimes/Never as 2/1/0) in a spreadsheet codebook and analysed in Python for frequency distributions and housing-stratified cross-tabulations. The contamination-rate definition used throughout is CR = (misplaced weight ÷ stream weight) × 100. All primary charts on the <a href="survey.html">Survey</a> page are generated directly from <span class="mono">form-1 - Form Responses 1.csv</span>; all secondary charts on the <a href="findings.html">Findings</a> page regenerate from retained CPCB/SBM/MPCB extracts.</p>
+<h3>2.5 Ethics and limitations</h3>
+<p>Participation was voluntary and anonymous; no names or addresses were collected. Photographs were taken with consent and faces obscured. Limitations: the sample is a convenience sample and is not representative of the city; self-reported quantities are approximate; observation covers a single season; urban local body portal claims (including the Maharashtra 98.66% segregation figure) are self-certified and are therefore reported alongside independent verification wherever available.</p>
+<div class="pager"><a href="field-visit.html">← Field Visit</a><a href="findings.html">Next: Findings →</a></div>
+</article>
+</div>
+<footer><div class="fin"><span>Waste Management · Pranjal Yadav · S.Y.B.Sc. Computer Science, University of Mumbai · Updated October 2026</span><span><a href="academic.html">Academic record</a> · <a href="references.html">Sources &amp; annexures</a></span></div></footer>
+</main>
+<script src="site.js"></script>
+</body>
+</html>
