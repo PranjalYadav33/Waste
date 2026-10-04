@@ -12,7 +12,6 @@
 - [Findings](findings.html): secondary-data analysis, interactive Figures F-1–F-6.
 - [Survey](survey.html): primary results N=100, interactive Figures P-S1–P-S5, frequency table.
 - [Solutions](solutions.html): conclusions and fourteen recommendations with owners and indicators.
-- [Academic](academic.html): certificate, declaration, acknowledgement, guide diary, downloads.
 - [References](references.html): 14 cited sources and annexures.
 
 ## Data
