@@ -27,8 +27,9 @@ indicators are set out in the report and on the website.
 
 ## Website
 
-Open `website/index.html` in a browser (internet needed for fonts and charts),
-or host the `website/` folder on any static host. Seven pages:
+Open `docs/index.html` in a browser (internet needed for fonts and charts),
+or host the `docs/` folder on any static host — it is also published with
+GitHub Pages at <https://pranjalyadav33.github.io/Waste/>. Seven pages:
 
 - Home, Field Visit, Methodology, Findings (Figures F-1–F-6, interactive),
   Survey (Figures P-S1–P-S5 + N=100 frequency table), Solutions (R1–R9),
@@ -37,9 +38,9 @@ or host the `website/` folder on any static host. Seven pages:
 ## Repository layout
 
 ```
-website/            Static site (HTML + CSS + JS, ECharts figures, no build step)
-website/assets/     Figure archives (PNG, superseded by live charts)
-website/data/       survey-responses.csv · survey-data.js · field-project-report.docx
+docs/               Static site (HTML + CSS + JS, ECharts figures, no build step)
+docs/assets/        Figure archives (PNG, superseded by live charts)
+docs/data/          survey-responses.csv · survey-data.js · field-project-report.docx
 graphs_updated/     Standalone figure exports (F1–F6, S1–S5)
 form-1 - Form Responses 1.csv        Raw Google Form responses, N=100
 Waste-Management-Field-Project-Pranjal-Yadav-UPDATED.docx   Full report (submitted)
@@ -51,7 +52,7 @@ Main Page for Field Project Report.docx                     Title/certificate pa
 
 - Primary data: `form-1 - Form Responses 1.csv` (2 Oct 2026, 13:55–14:07, N=100,
   no duplicate timestamps). All survey figures compute live from
-  `website/data/survey-data.js`, generated from this file.
+  `docs/data/survey-data.js`, generated from this file.
 - Secondary data: CPCB Annual Report 2021–22 (Table-1); SBM-Urban MIS +
   Garbage Free City 2023; MPCB Q4-2020 and Annual 2023; five published field
   studies (Delhi ISI, Mulund, IIT-Mandi/WPI, FOSSEE Thiruvananthapuram,
