@@ -85,7 +85,7 @@ tbody tr:first-child td{border-top:none}
 .expand-body p:last-child{margin-bottom:0}
 .rec{border:1px solid var(--line);border-radius:12px;padding:22px;margin:20px 0;background:#fff}
 .rec h3{margin:0 0 6px;font-size:16.5px}
-.rec h3 .rno{font-family:var(--mono);font-size:12px;font-weight:500;color:var(--muted);display:block;margin-bottom:4px;letter-spacing:.05em}
+
 .rec dl{margin:12px 0 0;display:grid;grid-template-columns:170px 1fr;gap:6px 14px;font-family:var(--sans);font-size:13.5px}
 .rec dt{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding-top:3px}
 .rec dd{margin:0;line-height:1.65}
